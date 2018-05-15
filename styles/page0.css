@@ -1,0 +1,43 @@
+h1{
+  color: #f1e7da;
+  font-size: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9em;
+  padding: 1em;
+}
+
+p{
+  font-size: 22px;
+  background-color: rgba(241, 231, 218, 0.3);
+    color: #f1e7da;
+  padding: 2em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boutons {
+  padding: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  background-color: tan;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+box-shadow: 2px 2px 7px 3px rgba(0,0,0,0.41);
+  transition: all 0.25s ease;
+  }
+
+  a:hover {
+    box-shadow: 0px 19px 53px -26px rgba(0,0,0,0.75);
+    background-color: #b88747;
+    color: white;
+  }
