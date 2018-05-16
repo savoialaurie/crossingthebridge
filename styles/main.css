@@ -3,6 +3,8 @@ body{
   background-size: cover;
   background-attachment: fixed;
   min-height: 800px;
+  margin:0;
+padding:0;
 }
 
 .images{
@@ -12,33 +14,45 @@ body{
 }
 
 img {
-  padding-top: 4em;
+
   width: 600px;
   height: 300px;
 }
 
+.chrono {
+  display: flex;
+align-items: flex-start;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+}
+
 
 header{
-  padding-top: 1em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 header a {
   font-size: 20px;
   color: #b88747;
   box-shadow: none;
-  background-color: #000e34;
+  background: none;
 border-radius: none;
-max-width: 100px;
+max-width: 200px;
 margin-left: 0;
 }
 header a:hover {
   box-shadow: none;
-  background-color: #000e34;
+  background: none;
   color: #e2cfb6;
 }
 
 .titre {
-  color: #b88747;
+  color: #e2cfb6;
   font-size: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -57,9 +71,11 @@ a {
   color: black;
   font-size: 25px;
   background-color: tan;
-  padding: 1em;
+  padding: 15px;
+margin-top: 0;
   max-width: 4em;
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   border-radius: 1em;
 box-shadow: 2px 2px 7px 3px rgba(0,0,0,0.41);
   transition: all 0.25s ease;
@@ -77,17 +93,10 @@ box-shadow: 2px 2px 7px 3px rgba(0,0,0,0.41);
     justify-content: center;
   }
 
-.chrono {
-  color: #ffff;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2em;
-  font-size: 1em;
-}
 
 .video {
   font-size: 12px;
-  padding-top: 5em;
+  padding-top: 2em;
   margin-left: auto;
   margin-right: auto;
   width: 12em;
